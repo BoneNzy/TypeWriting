@@ -42,3 +42,13 @@ body {
         opacity: 1;
     }
 }
+@media (max-width:500px) {
+    .base {
+        display: flex;
+        flex-direction: column;
+        color: hsl(240, 80%, 70%);
+        background: linear-gradient(rgba(90, 14, 6, 0.6), rgba(94, 20, 147, 0.600)), url('./baalM.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+}
