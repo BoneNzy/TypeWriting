@@ -7,11 +7,11 @@ body {
 .base {
     display: flex;
     flex-direction: column;
-    color: hsl(240, 100%, 60%);
+    color: hsl(240, 80%, 70%);
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(rgba(137, 35, 24, 0.400), rgba(94, 20, 147, 0.400)), url('./baal.jpg');
+    background: linear-gradient(rgba(90, 14, 6, 0.6), rgba(94, 20, 147, 0.600)), url('./baal.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -28,6 +28,11 @@ body {
     padding: 0;
     border: 2px solid white;
     animation: blink .8s infinite ease;
+}
+.with-heart {
+    font-size: x-large;
+    position: absolute;
+    bottom: 1%;
 }
 @keyframes blink {
     0% {

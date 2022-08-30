@@ -1,4 +1,4 @@
-const texts = ["Baal", "Raiden Ei", "Raiden Shogun", "My Woman", "Made With ❤️"];
+const texts = ["Baal", "Raiden Ei", "Raiden Shogun", "My Woman"];
 let count = 0;
 let index = 0;
 let currentText = '';
